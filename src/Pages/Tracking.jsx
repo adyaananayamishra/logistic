@@ -13,22 +13,27 @@ const TrackParcel = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white">
-      <h2 className="text-2xl font-semibold mb-4">Track your Parcel</h2>
-      <div className="flex items-center border border-gray-300 rounded-md overflow-hidden shadow-md">
-        <input
-          type="text"
-          placeholder="Enter Tracking Id/AWB"
-          value={trackingId}
-          onChange={(e) => setTrackingId(e.target.value)}
-          className="px-4 py-2 outline-none w-64 text-gray-600"
-        />
-        <button
-          onClick={handleTrack}
-          className="px-4 py-2 bg-gray-200 text-gray-600 hover:bg-gray-300 transition"
-        >
-          Track
-        </button>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-4">
+      <div className="bg-white p-8 rounded-lg shadow-lg max-w-md w-full">
+        <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">
+          Track Your Parcel
+        </h2>
+
+        <div className="flex items-center border border-gray-300 rounded-full shadow-sm overflow-hidden">
+          <input
+            type="text"
+            placeholder="Enter Tracking Id/AWB"
+            value={trackingId}
+            onChange={(e) => setTrackingId(e.target.value)}
+            className="px-4 py-3 w-full text-gray-700 outline-none rounded-l-full"
+          />
+          <button
+            onClick={handleTrack}
+            className="px-6 py-3 bg-emerald-500 text-white font-semibold rounded-r-full hover:bg-emerald-600 transition"
+          >
+            Track
+          </button>
+        </div>
       </div>
     </div>
   );

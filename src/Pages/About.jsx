@@ -3,14 +3,14 @@ import React from "react";
 const AboutUs = () => {
   return (
     <div className="min-h-screen">
-      {/* Hero Section with Background Image */}
-      <div className="relative w-full h-[300px] md:h-[400px]">
+    
+      <div className="relative w-full h-[300px] md:h-[400px] mt-25"> 
         <img
-          src="/assets/about.jpg" // Update this with your actual image path
+          src="/assets/about.jpg" 
           alt="About Us"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0  bg-opacity-50 flex items-center justify-center">
+        <div className="absolute inset-0 bg-opacity-50 flex items-center justify-center">
           <h1 className="text-white text-3xl md:text-5xl font-bold">About Us</h1>
         </div>
       </div>
@@ -21,8 +21,7 @@ const AboutUs = () => {
           {/* Mission */}
           <div className="bg-blue-100 p-6 rounded-lg shadow-md text-center">
             <div className="text-4xl text-blue-600 mb-3">
-              <i className="fas fa-shipping-fast"></i> {/* FontAwesome Icon */}
-            </div>
+              </div>
             <h3 className="text-lg font-semibold mb-2">Our Mission</h3>
             <p className="text-gray-600">
               To deliver the best logistics solutions with unparalleled customer service.
@@ -57,3 +56,4 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+
