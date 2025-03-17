@@ -1,3 +1,4 @@
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
@@ -13,7 +14,7 @@ import FAQ from "./components/FAQ";
 import Login from "./Pages/Login";
 import Register from "./Pages/Register";
 import Pricing from "./Pages/Pricing";
-import Terms from "./Pages/Terms"; 
+import Terms from "./Pages/Terms";
 import TrackParcel from "./Pages/Tracking";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import Blog from "./Pages/Blog";
@@ -50,9 +51,9 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Register />} />
             <Route path="/pricing" element={<Pricing />} />
-            <Route path="/terms" element={<Terms />} />
+            <Route path="/terms-of-use" element={<Terms />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/blogs" element={<Blog />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<About />} />
             <Route path="/tracking" element={<TrackParcel />} />

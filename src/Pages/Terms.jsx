@@ -2,7 +2,7 @@ import React from "react";
 
 const Terms = () => {
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="max-w-3xl mx-auto p-6 mt-20">
       <h1 className="text-3xl font-bold text-center mb-6">Terms</h1>
       <p className="mb-4">
         Welcome to <span className="font-bold">First Track</span>. By accessing or using our website and services, you agree to comply with and be bound by the following Terms of Use. Please review these terms carefully, as they govern your use of our platform.

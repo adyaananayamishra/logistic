@@ -268,7 +268,7 @@ const ShippingCalculator = () => {
         </div>
 
         {/* Fixed Box (Always Present) */}
-        <div className="overflow-x-auto mt-6">
+        {/* <div className="overflow-x-auto mt-6">
           <div className="grid grid-cols-2 md:grid-cols-7 gap-3 bg-gray-200 p-3 rounded-lg shadow min-w-[600px]">
             <input type="number" className="p-2 border rounded-md" placeholder="Weight" />
             <select className="p-2 border rounded-md">
@@ -281,12 +281,12 @@ const ShippingCalculator = () => {
             <input type="number" className="p-2 border rounded-md" placeholder="Count" />
             <div></div> 
           </div>
-        </div>
+        </div> */}
 
         {/* Dynamically Added Boxes */}
         {boxes.map((box) => (
           <div key={box.id} className="overflow-x-auto">
-            <div className="grid grid-cols-2 md:grid-cols-7 gap-3 bg-gray-100 p-3 rounded-lg shadow mt-3 min-w-[600px] relative">
+            <div className="grid grid-cols-2 md:grid-cols-7 gap-3 bg-gray-100 p-3 rounded-lg shadow mt-3 min-w-[240px] relative">
               <input type="number" className="p-2 border rounded-md" placeholder="Weight" />
               <select className="p-2 border rounded-md">
                 <option>g</option>
@@ -296,13 +296,13 @@ const ShippingCalculator = () => {
               <input type="number" className="p-2 border rounded-md" placeholder="B (cm)" />
               <input type="number" className="p-2 border rounded-md" placeholder="H (cm)" />
               <input type="number" className="p-2 border rounded-md" placeholder="Count" />
-              <button
+              {boxes.length>1?<button
                 type="button"
                 onClick={() => removeBox(box.id)}
-                className="absolute top-1 right-1 text-red-600 hover:text-red-800"
+                className="absolute top-[-8px] right-1 text-red-600 hover:text-red-800"
               >
                 ❌
-              </button>
+              </button>:null}
             </div>
           </div>
         ))}
