@@ -195,7 +195,7 @@ const ShippingCalculator = () => {
             <label className="block text-gray-700 font-semibold">Shipping Method</label>
             <select className="w-full p-2 border rounded-md focus:ring-emerald-500">
               <option>Surface</option>
-              <option>Air</option>
+              <option>Express</option>
             </select>
           </div>
 
@@ -204,7 +204,8 @@ const ShippingCalculator = () => {
             <label className="block text-gray-700 font-semibold">Status</label>
             <select className="w-full p-2 border rounded-md focus:ring-emerald-500">
               <option>Forward</option>
-              <option>Return</option>
+              <option>RTO</option>
+              <option>Reverse</option>
             </select>
           </div>
 
@@ -267,21 +268,8 @@ const ShippingCalculator = () => {
           </div>
         </div>
 
-        {/* Fixed Box (Always Present) */}
-        {/* <div className="overflow-x-auto mt-6">
-          <div className="grid grid-cols-2 md:grid-cols-7 gap-3 bg-gray-200 p-3 rounded-lg shadow min-w-[600px]">
-            <input type="number" className="p-2 border rounded-md" placeholder="Weight" />
-            <select className="p-2 border rounded-md">
-              <option>g</option>
-              <option>kg</option>
-            </select>
-            <input type="number" className="p-2 border rounded-md" placeholder="L (cm)" />
-            <input type="number" className="p-2 border rounded-md" placeholder="B (cm)" />
-            <input type="number" className="p-2 border rounded-md" placeholder="H (cm)" />
-            <input type="number" className="p-2 border rounded-md" placeholder="Count" />
-            <div></div> 
-          </div>
-        </div> */}
+  
+      
 
         {/* Dynamically Added Boxes */}
         {boxes.map((box) => (
@@ -308,7 +296,7 @@ const ShippingCalculator = () => {
         ))}
 
         {/* Buttons */}
-        <div className="flex justify-between mt-4">
+        <div className="flex justify-between mt-4 space-x-4">
           <button
             type="button"
             onClick={addBox}

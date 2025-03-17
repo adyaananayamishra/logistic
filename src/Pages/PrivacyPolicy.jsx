@@ -6,7 +6,7 @@ const PrivacyPolicy = () => {
       <h1 className="text-3xl font-bold text-center mb-6">Privacy & Policy</h1>
       
       <p className="mb-4">
-        At <span className="font-bold">First Track</span>, we are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. This Privacy Policy outlines how we collect, use, and protect your data when you use our services.
+        At <span className="font-bold">Adya Express</span>, we are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner. This Privacy Policy outlines how we collect, use, and protect your data when you use our services.
       </p>
       
       <h2 className="text-xl font-semibold mt-6">1. Information We Collect</h2>
@@ -31,13 +31,13 @@ const PrivacyPolicy = () => {
       <p className="mb-4">Our website uses cookies to enhance your user experience. Cookies are small files placed on your computer that help us understand how you interact with our website, improve its functionality, and offer personalized content.</p>
       
       <h2 className="text-xl font-semibold mt-6">6. Your Rights</h2>
-      <p className="mb-4">You have the right to access, modify, or delete your personal information at any time. If you wish to exercise these rights, please contact us at <a href="mailto:info@firsttrack.site" className="text-blue-600">info@firsttrack.site</a>.</p>
+      <p className="mb-4">You have the right to access, modify, or delete your personal information at any time. If you wish to exercise these rights, please contact us at <a href="mailto:info@firsttrack.site" className="text-blue-600">info@adyaexpress.com</a>.</p>
       
       <h2 className="text-xl font-semibold mt-6">7. Changes to this Policy</h2>
       <p className="mb-4">We may update this Privacy Policy from time to time to reflect changes in our services or legal requirements. Any updates will be posted on this page, and we encourage you to review the policy periodically.</p>
       
       <h2 className="text-xl font-semibold mt-6">8. Contact Us</h2>
-      <p>If you have any questions or concerns about our Privacy Policy, feel free to contact us at <a href="mailto:info@firsttrack.site" className="text-blue-600">info@firsttrack.site</a>.</p>
+      <p>If you have any questions or concerns about our Privacy Policy, feel free to contact us at <a href="mailto:info@firsttrack.site" className="text-blue-600">info@adyaexpress.com</a>.</p>
     </div>
   );
 };

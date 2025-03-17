@@ -3,8 +3,8 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "What services does First Track offer?",
-    answer: "First Track offers domestic and international shipping, express deliveries, logistics solutions, and parcel tracking services.",
+    question: "What services does Adya Express offer?",
+    answer: "Adya Express offers domestic and international shipping, express deliveries, logistics solutions, and parcel tracking services.",
   },
   {
     question: "How can I track my shipment?",

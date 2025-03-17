@@ -63,7 +63,7 @@ const Contact = () => {
     <div className="bg-gray-100 min-h-screen flex flex-col items-center mt-25">
       {/* Image Section */}
       <div className="relative w-full max-w-4xl">
-        <img src="/assets/contact-us.jpg" alt="Contact Us" className="w-full h-90 object-cover rounded-lg shadow-md" />
+        <img src="/assets/contact-us.jpg" alt="Contact Us" className="w-230 h-90 object-cover rounded-lg shadow-md" />
         <h1 className="absolute inset-0 flex items-center justify-center text-white text-3xl font-bold">Contact Us</h1>
       </div>
 
@@ -101,20 +101,20 @@ const Contact = () => {
           <h2 className="text-xl font-bold mb-4">Contact Information</h2>
           <p className="text-gray-700 mb-4">Feel free to reach out to us!</p>
           <div className="mb-4">
-            <p className="flex items-center"><span className="mr-2">📍</span> BMC Bhawani Mall, Saheed Nagar Bhubaneswar, Odisha-751007.</p>
-            <p className="flex items-center"><span className="mr-2">📞</span> +91-8240742313</p>
-            <p className="flex items-center"><span className="mr-2">💬</span> +91-9040170727</p>
-            <p className="flex items-center"><span className="mr-2">📧</span> info@firsttrack.site</p>
+            <p className="flex items-center"><span className="mr-2">📍</span> sundargarh,Rourkela, 770001.</p>
+            <p className="flex items-center"><span className="mr-2">📞</span> +91-0123456789</p>
+            <p className="flex items-center"><span className="mr-2">💬</span> +91-0123456789</p>
+            <p className="flex items-center"><span className="mr-2">📧</span> info@adyaexpress.com</p>
           </div>
 
-          <h3 className="text-lg font-semibold mb-2">Follow Us On:</h3>
+          {/* <h3 className="text-lg font-semibold mb-2">Follow Us On:</h3>
           <div className="flex space-x-4">
             <a href="#" className="text-blue-600 text-2xl"><i className="fab fa-facebook"></i></a>
             <a href="#" className="text-pink-600 text-2xl"><i className="fab fa-instagram"></i></a>
             <a href="#" className="text-blue-400 text-2xl"><i className="fab fa-twitter"></i></a>
             <a href="#" className="text-red-600 text-2xl"><i className="fab fa-youtube"></i></a>
             <a href="#" className="text-blue-800 text-2xl"><i className="fab fa-linkedin"></i></a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
