@@ -19,16 +19,16 @@ const BlogCardSection = () => {
         {
             image: "/assets/blog1.jpg", 
             title: "How to Optimize Shipping Routes for Efficiency",
-            date: "September 10, 2024",
+            date: "january 10, 2025",
             description: "Learn how to optimize your shipping routes to reduce costs and improve delivery times.",
-            link: "#"
+            
         },
         {
             image: "/assets/blog2.jpg", 
             title: "The Future of Logistics with AI and Automation",
-            date: "August 25, 2024",
+            date: "Febuary 25, 2025",
             description: "Discover how AI and automation are revolutionizing the logistics industry.",
-            link: "#"
+            
         }
     ];
 

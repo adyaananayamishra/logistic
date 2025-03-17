@@ -64,7 +64,7 @@ const Footer = () => {
       {/* Footer Bottom */}
       <div className="bg-gray-800 text-gray-400 text-center py-4 mt-8 text-sm">
         <p>
-          Copyright © 2024 Developed By<strong className="text-white"> First Track Solution Technologies</strong>
+          Copyright © 2025 Developed By<strong className="text-white"> First Track Solution Technologies</strong>
         </p>
         <p className="space-x-4">
           <Link to="/" className="hover:underline text-gray-400">Home</Link>
